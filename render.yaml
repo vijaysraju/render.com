@@ -1,0 +1,10 @@
+# Exported from Render on 2024-05-30T22:39:13Z
+services:
+- type: web
+  name: vaultwarden:latest
+  runtime: image
+  image:
+    url: docker.io/vaultwarden/server:latest
+  plan: free
+  region: oregon
+version: "1"
